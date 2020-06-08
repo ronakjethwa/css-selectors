@@ -74,3 +74,9 @@ A > B
 :nth-last-child(A)
 /* :nth-last-child(2) selects all second-to-last child elements. */
 ```
+
+### First of Type Selector
+```css
+:first-of-type
+/* span:first-of-type selects the first span in any element. */
+```
