@@ -24,10 +24,12 @@ A, B
 ```css
 A + B
 /* This selects all B elements that directly follow A. Elements that follow one another are called siblings. They're on the same level, or depth. */
+/* div + a selects every a element that directly follows a div */
 ```
 
 ### General Sibling Selector
 ```css
+/* You can select all siblings of an element that follow it. This is like the Adjacent Selector (A + B) except it gets all of the following elements instead of one. */
 A ~ B
 /* A ~ B selects all B that follow a A */
 ```
