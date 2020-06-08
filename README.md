@@ -80,3 +80,44 @@ A > B
 :first-of-type
 /* span:first-of-type selects the first span in any element. */
 ```
+
+### Nth of Type Selector
+```css
+/* Selects a specific element based on its type and order in another element - or even or odd instances of that element. */
+:nth-of-type(A)
+/* div:nth-of-type(2) selects the second instance of a div. */
+```
+
+### Nth-of-type Selector with Formula
+```css
+/* The nth-of-type formula selects every nth element, starting the count at a specific instance of that element. */
+:nth-of-type(An+B)
+/* span:nth-of-type(6n+2) selects every 6th instance of a span, starting from (and including) the second instance. */
+```
+
+### Only of Type Selector
+```css
+/* Selects the only element of its type within another element. */
+:only-of-type
+/* p span:only-of-type selects a span within any p if it is the only span in there. */
+```
+
+### Last of Type Selector
+```css
+/* Select the last element of a specific type */
+:last-of-type
+/* div:last-of-type selects the last div in every element. */
+```
+
+### Empty Selector
+```css
+/* Select elements that don't have children */
+:empty
+```
+
+### Negation Pseudo-class
+```css
+/* Select all elements that don't match the negation selector */
+:not(X)
+/* :not(.someClass) selects all elements that do not have class="someClass" */
+```
